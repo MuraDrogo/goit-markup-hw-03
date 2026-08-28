@@ -1,6 +1,11 @@
-.header {}
-
+.header {
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+}
 .header-logo {
+    margin-right: 76px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -9,19 +14,27 @@
     text-transform: uppercase;
     color: #2e2f42;
 }
+
 .header-logo:hover,.header-logo:focus{
     background-color: #2E2F42;
     color: #f4f4fd;
 }
 
-.header-nav {}
+.header-nav {
+    margin-right: auto;
+}
 
-.header-menu {}
+.header-menu {
+    display: flex;
+    gap: 24px;
+    padding: 24px 0;
+}
 
 .header-menu-item {
 }
 
 .header-menu-link {
+    padding: 24px 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -34,11 +47,16 @@
 
 .header-address {}
 
-.header-contact {}
+.header-contact {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
 .header-contact-item {}
 
 .header-contact-link {
+    padding: 24px 0;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
